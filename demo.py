@@ -1,10 +1,10 @@
 import streamlit as st
-import st_login_form
+from st_login_form import login_form
 
 # Call set_page_config as the first Streamlit command
 st.set_page_config(page_title="Chat with multiple PDFs", page_icon=":books:")
 
-client = st_login_form.login_form(user_tablename="users")
+client = login_form()
 
 # Import necessary libraries and functions
 from langchain.text_splitter import CharacterTextSplitter
