@@ -3,3 +3,4 @@ supabase
 st_login_form
 st-supabase-connection==1.2.0
 langchain
+PyPDF2==1.26.0
